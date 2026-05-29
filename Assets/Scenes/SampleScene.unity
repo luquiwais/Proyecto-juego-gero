@@ -605,6 +605,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &556672624 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8301348219256675485, guid: d23a71d629ca2cb428e58efdcf5d4c1b,
+    type: 3}
+  m_PrefabInstance: {fileID: 130076619}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &556672625
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 556672624}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &986438638
 GameObject:
   m_ObjectHideFlags: 0
@@ -1017,7 +1036,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 4355466839454bf47ac7483323082cc1, type: 3}
       propertyPath: m_Name
-      value: taza (2)
+      value: taza
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4355466839454bf47ac7483323082cc1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1244,6 +1263,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1776765295}
   - component: {fileID: 1776765294}
+  - component: {fileID: 1776765296}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -1277,6 +1297,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1776765296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1776765293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a81f9efca322d8469820a11108b6c2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1869652704
 GameObject:
   m_ObjectHideFlags: 0
