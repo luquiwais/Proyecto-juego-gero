@@ -4,15 +4,12 @@ using UnityEngine;
 
 public class Coleccionable : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+  void OnTriggerEnter(Collider other)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        if (other.CompareTag("Player"))
+        {
+            GameManager.instancia.RecolectarObjeto();
+            Destroy(gameObject);
+        }
     }
 }
