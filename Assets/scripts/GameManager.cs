@@ -1,12 +1,13 @@
 ﻿using UnityEngine;
-using TMPro; 
-using UnityEngine.SceneManagement; 
+using TMPro;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager instancia;
 
     int objetosRecolectados = 0;
+    public int totalObjetos = 1; // cambiá este número según cuántos coleccionables tenés
 
     public TMP_Text textScore;
     public TMP_Text textTimer;
@@ -24,32 +25,31 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
-    if (textTimer == null)
-    {
-        Debug.LogError("textTimer es null");
-        return;
-    }
-
-    if (corriendo)
-    {
-        tiempoRestante -= Time.deltaTime;
-
-        if (tiempoRestante <= 0)
+        if (textTimer == null)
         {
-            tiempoRestante = 0;
-            corriendo = false;
-            MostrarGameOver();
+            Debug.LogError("textTimer es null");
+            return;
         }
 
-        int segundos = Mathf.CeilToInt(tiempoRestante);
-        textTimer.text = "00:" + segundos.ToString("D2");
-    }
+        if (corriendo)
+        {
+            tiempoRestante -= Time.deltaTime;
 
-    if (Input.GetKeyDown(KeyCode.R))
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-    }
+            if (tiempoRestante <= 0)
+            {
+                tiempoRestante = 0;
+                corriendo = false;
+                MostrarGameOver();
+            }
 
+            int segundos = Mathf.CeilToInt(tiempoRestante);
+            textTimer.text = "00:" + segundos.ToString("D2");
+        }
+
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
     }
 
     public void RecolectarObjeto()
@@ -57,6 +57,11 @@ public class GameManager : MonoBehaviour
         objetosRecolectados++;
         textScore.text = "Score: " + objetosRecolectados;
         Debug.Log("Objetos recolectados: " + objetosRecolectados);
+
+        if (objetosRecolectados >= totalObjetos)
+        {
+            MostrarWin();
+        }
     }
 
     public void MostrarWin()
