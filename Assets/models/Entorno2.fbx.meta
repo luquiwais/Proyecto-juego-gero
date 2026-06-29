@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 914cb74cf89190c419008191e9fc71ed
+guid: 63ea60a884e56d3409a756af2cff94fc
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -60,77 +60,7 @@ ModelImporter:
     4300014: Cube.005
     4300016: Cube.006
     2186277476908879412: ImportLogs
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.002
-    second: {fileID: 2100000, guid: bbf3c7f607f58b145a212451d28bfe22, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.003
-    second: {fileID: 2100000, guid: 8b3d6d3610ec4e84ab1f97d77099a49c, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.004
-    second: {fileID: 2100000, guid: 804bdd95be0e14343b9ec66b759b52e3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.005
-    second: {fileID: 2100000, guid: 78739dee277ff3e4fbfe000d890bc4bc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.006
-    second: {fileID: 2100000, guid: e468aa4260a150e4a965bdbedbd7a0ab, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.007
-    second: {fileID: 2100000, guid: 93c126806cd55e640a45f3eed7ad4655, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.008
-    second: {fileID: 2100000, guid: fd9e409ce7fa35344a3ee8daa2fdaa00, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.009
-    second: {fileID: 2100000, guid: 4bc9abde8cc0e1a4da121dcc2e5bee89, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.011
-    second: {fileID: 2100000, guid: 27b2fb9fcc5a8e542bf07c527cee35e8, type: 2}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: textura mural pinguino
-    second: {fileID: 2800000, guid: 3f3b745f19bd7e54ba2c4d2692636d79, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: textura pared casita
-    second: {fileID: 2800000, guid: 2bc4fdcaa663ed547a87c553d4103c16, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: textura pared ladrillo
-    second: {fileID: 2800000, guid: 178ee584bb0e8a549a5722b9fc38fa7c, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: textura piso
-    second: {fileID: 2800000, guid: 08125a510e9b6ab4ea395ab163aa599b, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: textura reja
-    second: {fileID: 2800000, guid: 6def3eba0c71dc549a307d5764f4a82b, type: 3}
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0
