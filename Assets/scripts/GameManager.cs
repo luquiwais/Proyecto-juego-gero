@@ -7,13 +7,16 @@ public class GameManager : MonoBehaviour
     public static GameManager instancia;
 
     int objetosRecolectados = 0;
-    public int totalObjetos = 1; // cambiá este número según cuántos coleccionables tenés
+    public int totalObjetos = 1;
 
     public TMP_Text textScore;
     public TMP_Text textTimer;
 
     public GameObject panelWin;
     public GameObject panelGameOver;
+
+    public StarBar starBarWin;
+    public StarBar starBarGameOver;
 
     float tiempoRestante = 60f;
     bool corriendo = true;
@@ -67,11 +70,13 @@ public class GameManager : MonoBehaviour
     public void MostrarWin()
     {
         corriendo = false;
+        starBarWin.LlenarEstrellas();
         panelWin.SetActive(true);
     }
 
     public void MostrarGameOver()
     {
+        starBarGameOver.VaciarEstrellas();
         panelGameOver.SetActive(true);
     }
 }
