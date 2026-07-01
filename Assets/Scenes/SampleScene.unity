@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -895,6 +895,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &556672631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 556672624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45da5beec5413eb498f1a8f721cb7855, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &615783873
 GameObject:
   m_ObjectHideFlags: 0
@@ -1409,6 +1421,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   starEmpty: {fileID: 21300000, guid: 4834787549ca7ae44ad101abf127ea7d, type: 3}
   starFull: {fileID: 21300000, guid: bb4758451c405b247882507feb7f11d8, type: 3}
+  stars: []
 --- !u!1 &976011361
 GameObject:
   m_ObjectHideFlags: 0
@@ -1997,25 +2010,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1500115420}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1116706379
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1116706378}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a81f9efca322d8469820a11108b6c2f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  totalObjetos: 1
-  textScore: {fileID: 0}
-  textTimer: {fileID: 0}
-  panelWin: {fileID: 0}
-  panelGameOver: {fileID: 0}
-  starBarWin: {fileID: 0}
-  starBarGameOver: {fileID: 0}
 --- !u!114 &1116706380
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3036,8 +3030,8 @@ MonoBehaviour:
   textTimer: {fileID: 976011363}
   panelWin: {fileID: 179036827}
   panelGameOver: {fileID: 1275622619}
-  starBarWin: {fileID: 0}
-  starBarGameOver: {fileID: 0}
+  starBarWin: {fileID: 1825171086}
+  starBarGameOver: {fileID: 880168208}
 --- !u!4 &1776765295
 Transform:
   m_ObjectHideFlags: 0
@@ -3106,6 +3100,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   starEmpty: {fileID: 21300000, guid: 4834787549ca7ae44ad101abf127ea7d, type: 3}
   starFull: {fileID: 21300000, guid: bb4758451c405b247882507feb7f11d8, type: 3}
+  stars: []
 --- !u!114 &1825171087
 MonoBehaviour:
   m_ObjectHideFlags: 0
