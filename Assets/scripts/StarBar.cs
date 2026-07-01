@@ -6,7 +6,7 @@ public class StarBar : MonoBehaviour
     public Sprite starEmpty;
     public Sprite starFull;
 
-    private Image[] stars;
+    public Image[] stars;
 
     void Start()
     {
