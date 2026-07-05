@@ -18,6 +18,13 @@ public class GameManager : MonoBehaviour
     public StarBar starBarWin;
     public StarBar starBarGameOver;
 
+    public TMP_Text textScoreWin;
+    public TMP_Text textTimerWin;
+
+    public TMP_Text textScoreGameOver;
+    public TMP_Text textTimerGameOver;
+
+    float tiempoTotal = 60f;
     float tiempoRestante = 60f;
     bool corriendo = true;
 
@@ -45,8 +52,7 @@ public class GameManager : MonoBehaviour
                 MostrarGameOver();
             }
 
-            int segundos = Mathf.CeilToInt(tiempoRestante);
-            textTimer.text = "00:" + segundos.ToString("D2");
+            textTimer.text = FormatearTiempo(tiempoRestante);
         }
 
         if (Input.GetKeyDown(KeyCode.R))
@@ -71,12 +77,27 @@ public class GameManager : MonoBehaviour
     {
         corriendo = false;
         starBarWin.LlenarEstrellas();
+
+        textScoreWin.text = "Score: " + objetosRecolectados;
+        textTimerWin.text = FormatearTiempo(tiempoTotal - tiempoRestante);
+
         panelWin.SetActive(true);
     }
 
     public void MostrarGameOver()
     {
         starBarGameOver.VaciarEstrellas();
+
+        textScoreGameOver.text = "Score: " + objetosRecolectados;
+        textTimerGameOver.text = FormatearTiempo(tiempoTotal);
+
         panelGameOver.SetActive(true);
+    }
+
+    string FormatearTiempo(float segundos)
+    {
+        int mins = Mathf.FloorToInt(segundos / 60f);
+        int segs = Mathf.FloorToInt(segundos % 60f);
+        return string.Format("{0:00}:{1:00}", mins, segs);
     }
 }

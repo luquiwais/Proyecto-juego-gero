@@ -8,19 +8,22 @@ public class StarBar : MonoBehaviour
 
     public Image[] stars;
 
-    void Start()
+    void EnsureStars()
     {
-        stars = GetComponentsInChildren<Image>();
+        if (stars == null || stars.Length == 0)
+            stars = GetComponentsInChildren<Image>(true);
     }
 
     public void LlenarEstrellas()
     {
+        EnsureStars();
         foreach (var star in stars)
             star.sprite = starFull;
     }
 
     public void VaciarEstrellas()
     {
+        EnsureStars();
         foreach (var star in stars)
             star.sprite = starEmpty;
     }

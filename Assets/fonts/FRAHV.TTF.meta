@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 10fb364f3f2ef5740baf260de15daec0
+guid: 24152eb5dd78d9345b991676de8350ce
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -8,9 +8,9 @@ TrueTypeFontImporter:
   characterSpacing: 0
   characterPadding: 1
   includeFontData: 1
-  fontName: Impact
+  fontName: Franklin Gothic Heavy
   fontNames:
-  - Impact
+  - Franklin Gothic Heavy
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
