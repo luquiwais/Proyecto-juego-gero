@@ -24,6 +24,12 @@ public class GameManager : MonoBehaviour
     public TMP_Text textScoreGameOver;
     public TMP_Text textTimerGameOver;
 
+    [Header("Referencias al Player")]
+    public MonoBehaviour scriptPlayer; // arrastrá acá tu único script de movimiento/cámara
+
+    [Header("HUD esquinas")]
+    public GameObject hudEsquinas; // objeto padre que agrupa Score y Timer de arriba
+
     float tiempoTotal = 60f;
     float tiempoRestante = 60f;
     bool corriendo = true;
@@ -82,6 +88,7 @@ public class GameManager : MonoBehaviour
         textTimerWin.text = FormatearTiempo(tiempoTotal - tiempoRestante);
 
         panelWin.SetActive(true);
+        BloquearPlayer();
     }
 
     public void MostrarGameOver()
@@ -92,6 +99,17 @@ public class GameManager : MonoBehaviour
         textTimerGameOver.text = FormatearTiempo(tiempoTotal);
 
         panelGameOver.SetActive(true);
+        BloquearPlayer();
+    }
+
+    void BloquearPlayer()
+    {
+        if (scriptPlayer != null) scriptPlayer.enabled = false;
+
+        if (hudEsquinas != null) hudEsquinas.SetActive(false);
+
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
     }
 
     string FormatearTiempo(float segundos)
