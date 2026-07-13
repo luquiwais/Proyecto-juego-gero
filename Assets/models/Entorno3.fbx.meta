@@ -11,9 +11,103 @@ ModelImporter:
     100010: Cube.005
     100012: Cube.006
     100014: Cube.007
-    100016: //RootNode
-    100018: paredes ladriloo
-    100020: piso
+    100016: Cube.008
+    100018: Cube.010
+    100020: Cube.011
+    100022: Cube.012
+    100024: Cube.013
+    100026: Cube.014
+    100028: Cube.015
+    100030: Cube.016
+    100032: Cube.017
+    100034: Cube.018
+    100036: Cube.019
+    100038: Cube.020
+    100040: Cube.021
+    100042: Cube.022
+    100044: Cube.023
+    100046: Cube.024
+    100048: Cube.025
+    100050: Cube.026
+    100052: Cube.027
+    100054: Cube.028
+    100056: Cube.029
+    100058: Cube.030
+    100060: Cube.031
+    100062: Cube.032
+    100064: Cube.033
+    100066: Cube.034
+    100068: Cube.035
+    100070: Cube.036
+    100072: Cube.037
+    100074: Cube.038
+    100076: Cube.039
+    100078: Cube.042
+    100080: //RootNode
+    100082: paredes ladriloo.001
+    100084: paredes ladriloo.002
+    100086: paredes ladriloo.003
+    100088: paredes ladriloo.005
+    100090: paredes ladriloo.006
+    100092: paredes ladriloo.007
+    100094: paredes ladriloo.008
+    100096: paredes ladriloo.010
+    100098: paredes ladriloo.011
+    100100: paredes ladriloo.012
+    100102: paredes ladriloo.013
+    100104: paredes ladriloo.014
+    100106: paredes ladriloo.015
+    100108: paredes ladriloo.016
+    100110: paredes ladriloo.017
+    100112: paredes ladriloo.019
+    100114: paredes ladriloo.020
+    100116: paredes ladriloo.021
+    100118: paredes ladriloo.022
+    100120: paredes ladriloo.023
+    100122: paredes ladriloo.024
+    100124: paredes ladriloo.025
+    100126: paredes ladriloo.026
+    100128: paredes ladriloo.027
+    100130: paredes ladriloo.028
+    100132: paredes ladriloo.029
+    100134: paredes ladriloo.030
+    100136: paredes ladriloo.031
+    100138: paredes ladriloo.032
+    100140: paredes ladriloo.033
+    100142: paredes ladriloo.034
+    100144: paredes ladriloo.035
+    100146: paredes ladriloo.036
+    100148: paredes ladriloo.037
+    100150: paredes ladriloo.038
+    100152: paredes ladriloo.039
+    100154: paredes ladriloo.040
+    100156: paredes ladriloo.041
+    100158: paredes ladriloo.042
+    100160: paredes ladriloo.043
+    100162: paredes ladriloo.044
+    100164: paredes ladriloo.045
+    100166: paredes ladriloo.046
+    100168: paredes ladriloo.047
+    100170: paredes ladriloo.048
+    100172: paredes ladriloo.049
+    100174: paredes ladriloo.050
+    100176: paredes ladriloo.051
+    100178: paredes ladriloo.052
+    100180: paredes ladriloo.053
+    100182: paredes ladriloo.054
+    100184: paredes ladriloo.055
+    100186: paredes ladriloo.056
+    100188: paredes ladriloo.057
+    100190: paredes ladriloo.058
+    100192: paredes ladriloo.059
+    100194: paredes ladriloo.060
+    100196: paredes ladriloo.061
+    100198: paredes ladriloo.062
+    100200: paredes ladriloo.063
+    100202: paredes ladriloo.064
+    100204: paredes ladriloo.066
+    100206: paredes ladriloo.067
+    100208: piso
     400000: Cube
     400002: Cube.001
     400004: Cube.002
@@ -22,19 +116,117 @@ ModelImporter:
     400010: Cube.005
     400012: Cube.006
     400014: Cube.007
-    400016: //RootNode
-    400018: paredes ladriloo
-    400020: piso
+    400016: Cube.008
+    400018: Cube.010
+    400020: Cube.011
+    400022: Cube.012
+    400024: Cube.013
+    400026: Cube.014
+    400028: Cube.015
+    400030: Cube.016
+    400032: Cube.017
+    400034: Cube.018
+    400036: Cube.019
+    400038: Cube.020
+    400040: Cube.021
+    400042: Cube.022
+    400044: Cube.023
+    400046: Cube.024
+    400048: Cube.025
+    400050: Cube.026
+    400052: Cube.027
+    400054: Cube.028
+    400056: Cube.029
+    400058: Cube.030
+    400060: Cube.031
+    400062: Cube.032
+    400064: Cube.033
+    400066: Cube.034
+    400068: Cube.035
+    400070: Cube.036
+    400072: Cube.037
+    400074: Cube.038
+    400076: Cube.039
+    400078: Cube.042
+    400080: //RootNode
+    400082: paredes ladriloo.001
+    400084: paredes ladriloo.002
+    400086: paredes ladriloo.003
+    400088: paredes ladriloo.005
+    400090: paredes ladriloo.006
+    400092: paredes ladriloo.007
+    400094: paredes ladriloo.008
+    400096: paredes ladriloo.010
+    400098: paredes ladriloo.011
+    400100: paredes ladriloo.012
+    400102: paredes ladriloo.013
+    400104: paredes ladriloo.014
+    400106: paredes ladriloo.015
+    400108: paredes ladriloo.016
+    400110: paredes ladriloo.017
+    400112: paredes ladriloo.019
+    400114: paredes ladriloo.020
+    400116: paredes ladriloo.021
+    400118: paredes ladriloo.022
+    400120: paredes ladriloo.023
+    400122: paredes ladriloo.024
+    400124: paredes ladriloo.025
+    400126: paredes ladriloo.026
+    400128: paredes ladriloo.027
+    400130: paredes ladriloo.028
+    400132: paredes ladriloo.029
+    400134: paredes ladriloo.030
+    400136: paredes ladriloo.031
+    400138: paredes ladriloo.032
+    400140: paredes ladriloo.033
+    400142: paredes ladriloo.034
+    400144: paredes ladriloo.035
+    400146: paredes ladriloo.036
+    400148: paredes ladriloo.037
+    400150: paredes ladriloo.038
+    400152: paredes ladriloo.039
+    400154: paredes ladriloo.040
+    400156: paredes ladriloo.041
+    400158: paredes ladriloo.042
+    400160: paredes ladriloo.043
+    400162: paredes ladriloo.044
+    400164: paredes ladriloo.045
+    400166: paredes ladriloo.046
+    400168: paredes ladriloo.047
+    400170: paredes ladriloo.048
+    400172: paredes ladriloo.049
+    400174: paredes ladriloo.050
+    400176: paredes ladriloo.051
+    400178: paredes ladriloo.052
+    400180: paredes ladriloo.053
+    400182: paredes ladriloo.054
+    400184: paredes ladriloo.055
+    400186: paredes ladriloo.056
+    400188: paredes ladriloo.057
+    400190: paredes ladriloo.058
+    400192: paredes ladriloo.059
+    400194: paredes ladriloo.060
+    400196: paredes ladriloo.061
+    400198: paredes ladriloo.062
+    400200: paredes ladriloo.063
+    400202: paredes ladriloo.064
+    400204: paredes ladriloo.066
+    400206: paredes ladriloo.067
+    400208: piso
     2100000: Material.004
     2100002: Material.011
     2100004: Material.005
     2100006: Material.006
-    2100008: Material.003
-    2100010: Material.008
-    2100012: Material.007
-    2100014: Material.009
-    2100016: No Name
-    2100018: Material.002
+    2100008: Material.019
+    2100010: No Name
+    2100012: Material.008
+    2100014: Material.007
+    2100016: Material.009
+    2100018: Material.013
+    2100020: Material.016
+    2100022: Material.015
+    2100024: Material.012
+    2100026: Material.002
     2300000: Cube
     2300002: Cube.001
     2300004: Cube.002
@@ -43,8 +235,102 @@ ModelImporter:
     2300010: Cube.005
     2300012: Cube.006
     2300014: Cube.007
-    2300016: paredes ladriloo
-    2300018: piso
+    2300016: Cube.008
+    2300018: Cube.010
+    2300020: Cube.011
+    2300022: Cube.012
+    2300024: Cube.013
+    2300026: Cube.014
+    2300028: Cube.015
+    2300030: Cube.016
+    2300032: Cube.017
+    2300034: Cube.018
+    2300036: Cube.019
+    2300038: Cube.020
+    2300040: Cube.021
+    2300042: Cube.022
+    2300044: Cube.023
+    2300046: Cube.024
+    2300048: Cube.025
+    2300050: Cube.026
+    2300052: Cube.027
+    2300054: Cube.028
+    2300056: Cube.029
+    2300058: Cube.030
+    2300060: Cube.031
+    2300062: Cube.032
+    2300064: Cube.033
+    2300066: Cube.034
+    2300068: Cube.035
+    2300070: Cube.036
+    2300072: Cube.037
+    2300074: Cube.038
+    2300076: Cube.039
+    2300078: Cube.042
+    2300080: paredes ladriloo.001
+    2300082: paredes ladriloo.002
+    2300084: paredes ladriloo.003
+    2300086: paredes ladriloo.005
+    2300088: paredes ladriloo.006
+    2300090: paredes ladriloo.007
+    2300092: paredes ladriloo.008
+    2300094: paredes ladriloo.010
+    2300096: paredes ladriloo.011
+    2300098: paredes ladriloo.012
+    2300100: paredes ladriloo.013
+    2300102: paredes ladriloo.014
+    2300104: paredes ladriloo.015
+    2300106: paredes ladriloo.016
+    2300108: paredes ladriloo.017
+    2300110: paredes ladriloo.019
+    2300112: paredes ladriloo.020
+    2300114: paredes ladriloo.021
+    2300116: paredes ladriloo.022
+    2300118: paredes ladriloo.023
+    2300120: paredes ladriloo.024
+    2300122: paredes ladriloo.025
+    2300124: paredes ladriloo.026
+    2300126: paredes ladriloo.027
+    2300128: paredes ladriloo.028
+    2300130: paredes ladriloo.029
+    2300132: paredes ladriloo.030
+    2300134: paredes ladriloo.031
+    2300136: paredes ladriloo.032
+    2300138: paredes ladriloo.033
+    2300140: paredes ladriloo.034
+    2300142: paredes ladriloo.035
+    2300144: paredes ladriloo.036
+    2300146: paredes ladriloo.037
+    2300148: paredes ladriloo.038
+    2300150: paredes ladriloo.039
+    2300152: paredes ladriloo.040
+    2300154: paredes ladriloo.041
+    2300156: paredes ladriloo.042
+    2300158: paredes ladriloo.043
+    2300160: paredes ladriloo.044
+    2300162: paredes ladriloo.045
+    2300164: paredes ladriloo.046
+    2300166: paredes ladriloo.047
+    2300168: paredes ladriloo.048
+    2300170: paredes ladriloo.049
+    2300172: paredes ladriloo.050
+    2300174: paredes ladriloo.051
+    2300176: paredes ladriloo.052
+    2300178: paredes ladriloo.053
+    2300180: paredes ladriloo.054
+    2300182: paredes ladriloo.055
+    2300184: paredes ladriloo.056
+    2300186: paredes ladriloo.057
+    2300188: paredes ladriloo.058
+    2300190: paredes ladriloo.059
+    2300192: paredes ladriloo.060
+    2300194: paredes ladriloo.061
+    2300196: paredes ladriloo.062
+    2300198: paredes ladriloo.063
+    2300200: paredes ladriloo.064
+    2300202: paredes ladriloo.066
+    2300204: paredes ladriloo.067
+    2300206: piso
     3300000: Cube
     3300002: Cube.001
     3300004: Cube.002
@@ -53,8 +339,102 @@ ModelImporter:
     3300010: Cube.005
     3300012: Cube.006
     3300014: Cube.007
-    3300016: paredes ladriloo
-    3300018: piso
+    3300016: Cube.008
+    3300018: Cube.010
+    3300020: Cube.011
+    3300022: Cube.012
+    3300024: Cube.013
+    3300026: Cube.014
+    3300028: Cube.015
+    3300030: Cube.016
+    3300032: Cube.017
+    3300034: Cube.018
+    3300036: Cube.019
+    3300038: Cube.020
+    3300040: Cube.021
+    3300042: Cube.022
+    3300044: Cube.023
+    3300046: Cube.024
+    3300048: Cube.025
+    3300050: Cube.026
+    3300052: Cube.027
+    3300054: Cube.028
+    3300056: Cube.029
+    3300058: Cube.030
+    3300060: Cube.031
+    3300062: Cube.032
+    3300064: Cube.033
+    3300066: Cube.034
+    3300068: Cube.035
+    3300070: Cube.036
+    3300072: Cube.037
+    3300074: Cube.038
+    3300076: Cube.039
+    3300078: Cube.042
+    3300080: paredes ladriloo.001
+    3300082: paredes ladriloo.002
+    3300084: paredes ladriloo.003
+    3300086: paredes ladriloo.005
+    3300088: paredes ladriloo.006
+    3300090: paredes ladriloo.007
+    3300092: paredes ladriloo.008
+    3300094: paredes ladriloo.010
+    3300096: paredes ladriloo.011
+    3300098: paredes ladriloo.012
+    3300100: paredes ladriloo.013
+    3300102: paredes ladriloo.014
+    3300104: paredes ladriloo.015
+    3300106: paredes ladriloo.016
+    3300108: paredes ladriloo.017
+    3300110: paredes ladriloo.019
+    3300112: paredes ladriloo.020
+    3300114: paredes ladriloo.021
+    3300116: paredes ladriloo.022
+    3300118: paredes ladriloo.023
+    3300120: paredes ladriloo.024
+    3300122: paredes ladriloo.025
+    3300124: paredes ladriloo.026
+    3300126: paredes ladriloo.027
+    3300128: paredes ladriloo.028
+    3300130: paredes ladriloo.029
+    3300132: paredes ladriloo.030
+    3300134: paredes ladriloo.031
+    3300136: paredes ladriloo.032
+    3300138: paredes ladriloo.033
+    3300140: paredes ladriloo.034
+    3300142: paredes ladriloo.035
+    3300144: paredes ladriloo.036
+    3300146: paredes ladriloo.037
+    3300148: paredes ladriloo.038
+    3300150: paredes ladriloo.039
+    3300152: paredes ladriloo.040
+    3300154: paredes ladriloo.041
+    3300156: paredes ladriloo.042
+    3300158: paredes ladriloo.043
+    3300160: paredes ladriloo.044
+    3300162: paredes ladriloo.045
+    3300164: paredes ladriloo.046
+    3300166: paredes ladriloo.047
+    3300168: paredes ladriloo.048
+    3300170: paredes ladriloo.049
+    3300172: paredes ladriloo.050
+    3300174: paredes ladriloo.051
+    3300176: paredes ladriloo.052
+    3300178: paredes ladriloo.053
+    3300180: paredes ladriloo.054
+    3300182: paredes ladriloo.055
+    3300184: paredes ladriloo.056
+    3300186: paredes ladriloo.057
+    3300188: paredes ladriloo.058
+    3300190: paredes ladriloo.059
+    3300192: paredes ladriloo.060
+    3300194: paredes ladriloo.061
+    3300196: paredes ladriloo.062
+    3300198: paredes ladriloo.063
+    3300200: paredes ladriloo.064
+    3300202: paredes ladriloo.066
+    3300204: paredes ladriloo.067
+    3300206: piso
     4300000: Cube
     4300002: Cube.001
     4300004: Cube.002
@@ -63,10 +443,129 @@ ModelImporter:
     4300010: Cube.005
     4300012: Cube.006
     4300014: Cube.007
-    4300016: paredes ladriloo
-    4300018: piso
+    4300016: Cube.010
+    4300018: Cube.011
+    4300020: Cube.012
+    4300022: Cube.013
+    4300024: Cube.014
+    4300026: Cube.015
+    4300028: Cube.016
+    4300030: Cube.017
+    4300032: Cube.018
+    4300034: Cube.019
+    4300036: Cube.020
+    4300038: Cube.021
+    4300040: Cube.022
+    4300042: Cube.023
+    4300044: Cube.024
+    4300046: Cube.025
+    4300048: Cube.026
+    4300050: Cube.027
+    4300052: Cube.028
+    4300054: Cube.029
+    4300056: Cube.030
+    4300058: Cube.031
+    4300060: Cube.032
+    4300062: Cube.033
+    4300064: Cube.034
+    4300066: Cube.035
+    4300068: Cube.036
+    4300070: Cube.037
+    4300072: Cube.038
+    4300074: Cube.039
+    4300076: paredes ladriloo.001
+    4300078: paredes ladriloo.002
+    4300080: paredes ladriloo.003
+    4300082: paredes ladriloo.005
+    4300084: paredes ladriloo.006
+    4300086: paredes ladriloo.007
+    4300088: paredes ladriloo.010
+    4300090: paredes ladriloo.011
+    4300092: paredes ladriloo.013
+    4300094: paredes ladriloo.014
+    4300096: paredes ladriloo.016
+    4300098: paredes ladriloo.017
+    4300100: paredes ladriloo.019
+    4300102: paredes ladriloo.020
+    4300104: paredes ladriloo.022
+    4300106: paredes ladriloo.023
+    4300108: paredes ladriloo.025
+    4300110: paredes ladriloo.026
+    4300112: paredes ladriloo.027
+    4300114: paredes ladriloo.028
+    4300116: paredes ladriloo.029
+    4300118: paredes ladriloo.030
+    4300120: paredes ladriloo.031
+    4300122: paredes ladriloo.032
+    4300124: paredes ladriloo.033
+    4300126: paredes ladriloo.034
+    4300128: paredes ladriloo.035
+    4300130: paredes ladriloo.036
+    4300132: paredes ladriloo.037
+    4300134: paredes ladriloo.038
+    4300136: paredes ladriloo.039
+    4300138: paredes ladriloo.040
+    4300140: paredes ladriloo.041
+    4300142: paredes ladriloo.042
+    4300144: paredes ladriloo.043
+    4300146: paredes ladriloo.044
+    4300148: paredes ladriloo.045
+    4300150: paredes ladriloo.046
+    4300152: paredes ladriloo.047
+    4300154: paredes ladriloo.048
+    4300156: paredes ladriloo.049
+    4300158: paredes ladriloo.050
+    4300160: paredes ladriloo.051
+    4300162: paredes ladriloo.052
+    4300164: paredes ladriloo.053
+    4300166: paredes ladriloo.054
+    4300168: piso
+    4300170: Cube.008
+    4300172: Cube.042
+    4300174: paredes ladriloo.008
+    4300176: paredes ladriloo.012
+    4300178: paredes ladriloo.015
+    4300180: paredes ladriloo.021
+    4300182: paredes ladriloo.024
+    4300184: paredes ladriloo.055
+    4300186: paredes ladriloo.056
+    4300188: paredes ladriloo.057
+    4300190: paredes ladriloo.058
+    4300192: paredes ladriloo.059
+    4300194: paredes ladriloo.060
+    4300196: paredes ladriloo.061
+    4300198: paredes ladriloo.062
+    4300200: paredes ladriloo.063
+    4300202: paredes ladriloo.064
+    4300204: paredes ladriloo.066
+    4300206: paredes ladriloo.067
     2186277476908879412: ImportLogs
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: textura mural pinguino
+    second: {fileID: 2800000, guid: ed0922777f7c72e42906c93e8a4d2029, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: textura pared casita
+    second: {fileID: 2800000, guid: 1284eee2bfe136e408bbf18ff5d59f7e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: textura pared ladrillo
+    second: {fileID: 2800000, guid: 530b847f45c8e6149b77b8bd8c5da731, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: textura piso
+    second: {fileID: 2800000, guid: 3f75d0b9d22e64a419f22f79693b5fff, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: textura reja
+    second: {fileID: 2800000, guid: f30ce29c95b562e4c893de3a70d8331d, type: 3}
   materials:
     importMaterials: 1
     materialName: 0
